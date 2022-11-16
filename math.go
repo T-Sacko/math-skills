@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	file, _ := os.ReadFile("numbers.txt")
+	file, _ := os.ReadFile("data.txt")
 	st := strings.Split(string(file), "\n")
 	var nums []float64
 	for _, v := range st {
